@@ -28,6 +28,7 @@ interface RouteProps {
   href: string;
   label: string;
   featureList: FeatureProps[];
+  isTarget?:boolean;
 }
 
 interface FeatureProps {
@@ -61,7 +62,7 @@ const routeList: RouteProps[] = [
       },
       {
         title: "Awards And Affiliations",
-        href: "/awards",
+        href: "/awards-and-citations",
       },
       {
         title: "FAQ",
@@ -109,17 +110,17 @@ const routeList: RouteProps[] = [
     ],
   },
   {
-    href: "#",
+    href: "/blogs",
     label: "Blogs",
     featureList: [],
   },
   {
-    href: "#",
+    href: "/careers",
     label: "Careers",
     featureList: [],
   },
   {
-    href: "#contact-us",
+    href: "/#contact-us",
     label: "Contact Us",
     featureList: [],
   },
