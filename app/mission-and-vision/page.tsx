@@ -1,3 +1,4 @@
+import Navbar from "@/components/layout/navbar";
 import { FooterSection } from "@/components/layout/sections/footer";
 import Image from "next/image";
 
@@ -60,6 +61,7 @@ const sponsors: sponsorsProps[] = [
 export default function Page() {
   return (
     <>
+      <Navbar />
       {/* <OurCompanySection /> */}
       <section className="container py-24 sm:py-32">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

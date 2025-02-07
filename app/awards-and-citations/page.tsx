@@ -1,3 +1,4 @@
+import Navbar from "@/components/layout/navbar";
 import { FooterSection } from "@/components/layout/sections/footer";
 
 export const metadata = {
@@ -10,6 +11,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <Navbar />
       <section id="sponsors" className="container pt-24 sm:py-20">
         <div className="max-w-screen-md mx-auto text-center text-3xl md:text-5xl font-bold m-5">
           <h1>Awards and Citations</h1>
