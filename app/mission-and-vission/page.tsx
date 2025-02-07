@@ -1,5 +1,4 @@
 import { FooterSection } from "@/components/layout/sections/footer";
-import { OurCompanySection } from "@/components/layout/sections/our-company";
 import Image from "next/image";
 
 export const metadata = {

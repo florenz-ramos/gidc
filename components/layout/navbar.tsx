@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { ChevronDown, ChevronsDown, ChevronUp, Github, Menu } from "lucide-react";
+import { ChevronDown, ChevronUp, Menu } from "lucide-react";
 import { useState } from "react";
 import {
   Sheet,
@@ -23,7 +23,6 @@ import {
   NavigationMenuTrigger,
 } from "../ui/navigation-menu";
 import { ToggleTheme } from "./toogle-theme";
-import { title } from "process";
 
 interface RouteProps {
   href: string;
@@ -180,13 +179,19 @@ export default function Navbar() {
                       <div>
                         <Button
                           onClick={() =>
-                            setOpenDropdown(openDropdown === label ? null : label)
+                            setOpenDropdown(
+                              openDropdown === label ? null : label
+                            )
                           }
                           variant="ghost"
                           className="justify-between w-full text-base flex items-center"
                         >
                           {label}
-                          {openDropdown === label ? <ChevronUp /> : <ChevronDown />}
+                          {openDropdown === label ? (
+                            <ChevronUp />
+                          ) : (
+                            <ChevronDown />
+                          )}
                         </Button>
 
                         {/* Feature List Dropdown */}
@@ -241,7 +246,7 @@ export default function Navbar() {
                 <NavigationMenuContent>
                   <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
                     <ul className="flex flex-col gap-2">
-                      {featureList.map(({ title, description, href }) => (
+                      {featureList.map(({ title, href }) => (
                         <li
                           key={title}
                           className="rounded-md p-3 text-sm hover:bg-muted"
