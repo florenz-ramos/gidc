@@ -2,7 +2,6 @@ import Navbar from "@/components/layout/navbar";
 import { AffiliationsSection } from "@/components/layout/sections/affiliations";
 import { AwardsSection } from "@/components/layout/sections/awards";
 import { FooterSection } from "@/components/layout/sections/footer";
-import Image from 'next/image';
 
 export const metadata = {
   title:

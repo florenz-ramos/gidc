@@ -1,7 +1,5 @@
 import Navbar from "@/components/layout/navbar";
 import { FooterSection } from "@/components/layout/sections/footer";
-import { MembershipSection } from "@/components/layout/sections/membership-section";
-import { MissionAndVisionSection } from "@/components/layout/sections/mission-and-vision-section";
 import Image from "next/image";
 
 export const metadata = {
