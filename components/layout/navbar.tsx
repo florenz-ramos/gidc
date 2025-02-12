@@ -66,7 +66,7 @@ const routeList: RouteProps[] = [
       },
       {
         title: "FAQ",
-        href: "/faq",
+        href: "/what-is-stevia",
       },
       {
         title: "Gallery",
