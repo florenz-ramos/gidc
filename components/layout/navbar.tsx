@@ -58,7 +58,7 @@ const routeList: RouteProps[] = [
       },
       {
         title: "Corporate Social Responsibility",
-        href: "/corp",
+        href: "/corporate-social-responsibility",
       },
       {
         title: "Awards And Affiliations",

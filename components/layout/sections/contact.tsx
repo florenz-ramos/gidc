@@ -44,7 +44,7 @@ export const ContactSection = () => {
       firstName: "",
       lastName: "",
       email: "",
-      subject: "Web Development",
+      subject: "Customer Support",
       message: "",
     },
   });
@@ -190,18 +190,8 @@ export const ContactSection = () => {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="Web Development">
-                              Web Development
-                            </SelectItem>
-                            <SelectItem value="Mobile Development">
-                              Mobile Development
-                            </SelectItem>
-                            <SelectItem value="Figma Design">
-                              Figma Design
-                            </SelectItem>
-                            <SelectItem value="REST API">REST API</SelectItem>
-                            <SelectItem value="FullStack Project">
-                              FullStack Project
+                            <SelectItem value="Customer Support">
+                              Customer Support
                             </SelectItem>
                           </SelectContent>
                         </Select>
